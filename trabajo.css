@@ -1,0 +1,150 @@
+/*Trabajo realizado por Daniel Gil Rodríguez
+*/
+html {
+  background-image: url(material/Material/img/fondo.jpg);
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+header::first-letter {
+  font-size: 1.5em;
+}
+header {
+  color: white;
+  text-align: center;
+  background-color: #223a5e;
+  border: 5px solid rgb(72, 72, 72);
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+a {
+  color: #f6d155;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+p {
+  text-align: justify;
+  margin-right: 20%;
+  margin-left: 15%;
+}
+div#indice {
+  position: absolute;
+  width: 14%;
+  color: white;
+  background-color: #223a5e;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+h4#indice {
+  text-align: center;
+}
+h3 {
+  text-align: justify;
+  margin-right: 20%;
+  margin-left: 15%;
+  color: brown;
+
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+h4#pabellondestacado {
+  text-align: justify;
+  margin-right: 20%;
+  margin-left: 15%;
+  color: brown;
+  font-style: italic;
+}
+table {
+  margin: auto;
+  table-layout: auto;
+  border-spacing: 0px;
+  margin-block-end: 10px;
+}
+td {
+  padding: 5px;
+  text-align: center;
+}
+th {
+  color: white;
+  background-color: #223a5e;
+}
+td#primer {
+  background-color: #c48f65;
+}
+td#segundo {
+  background-color: #d49f75;
+}
+img {
+  border: solid 3px grey;
+}
+img#curro {
+  margin-right: 15%;
+  margin-left: 40%;
+  margin-block-end: 10px;
+}
+p#piecurro {
+  font-size: small;
+  font-style: italic;
+  margin-left: 15%;
+  margin-left: 40%;
+}
+img#panoramica {
+  margin-right: 15%;
+  margin-left: 40%;
+  margin-block-end: 10px;
+}
+p#piepanoramica {
+  font-size: small;
+  font-style: italic;
+  margin-right: 15%;
+  margin-left: 36%;
+}
+p#imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div#leyendas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 12%;
+  margin-right: 15%;
+  font-size: small;
+  font-style: italic;
+}
+img#españa {
+  width: 15%;
+  height: 20%;
+}
+p#pieespaña {
+}
+img#navegacion {
+  width: 15%;
+  height: 20%;
+}
+img#andalucia {
+  width: 15%;
+  height: 20%;
+}
+p#piedepagina {
+  color: white;
+  background-color: #223a5e;
+  text-align: center;
+  border-style: solid;
+  border-color: grey;
+  border-top: 5px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
